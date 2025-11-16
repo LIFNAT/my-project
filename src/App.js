@@ -1,6 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import Logins from './components/Logins'; // 1. Import หน้าที่สร้างไว้
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';import Logins from './components/Logins'; // 1. Import หน้าที่สร้างไว้
 import Home from './components/Home'; 
 import Profile from './components/Profile'; 
 import Cart from './components/Cart'; 
